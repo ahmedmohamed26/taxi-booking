@@ -6,8 +6,8 @@ function MabBoxRoute(props: any) {
     <Source
       type="geojson"
       data={{
-        type: "Feature",
-        geometry: { type: "LineString", coordinates: props.coordinates },
+        type: "LineString",
+        coordinates: props.coordinates,
       }}
     >
       <Layer
